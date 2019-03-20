@@ -8,7 +8,8 @@
     "frontend-install": "npm install --prefix ./../frontend",
     "server": "nodemon app.js",
     "frontend": "npm run serve --prefix ./../frontend",
-    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
+	"start": "node app.js"
   },
   "engines": {
     "node": "10.15.3"
